@@ -1,0 +1,27 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+.card-body {
+    border: 2px solid rgb(143, 53, 15);
+    width: 100;
+    
+ }
+ 
+ .img-container img {
+    width: 300px;
+    height: auto;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .card-body p, .card-body h1 {
+    margin: 20px;
+ }
+ 
