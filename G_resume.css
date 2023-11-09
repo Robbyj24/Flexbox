@@ -1,56 +1,125 @@
-/* Select the main container */
+body {
+    display: flex; 
+    justify-content: center;
+    color: #f5f5dc;
+    height: 100vh; 
+    margin: 0; 
+}
+
 .main_container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #D2B48C;
-    padding: 20px;
-    border: 2px solid #8B4513;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    
+    background-color: #083636;
+    padding: 0px;
+    border: 10px solid #8b4513;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;   
+    height:fit-content 
 }
 
 .section1 {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-}
-.box {
-    padding: 20px;
-    border: 3px solid #D2691E;
-    margin: 10px;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: fit-content;
 }
 
-/* Select the full name */
-.box1 h1 {
-    font-size: 24px;
-    font-weight: bold;
+
+#Mrbean {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+    
+    max-width: 100%;
+    overflow: hidden;
+    
 }
 
-/* Select the title */
-.box1 h2 {
-    font-size: 18px;
-    color: #8B4513;
+.image {
+padding: 0;
+margin: 0;
+order: 0;
 }
 
-/* Select the general information */
-.box2 p {
-    font-size: 14px;
-    line-height: 1.4;
+.name {
+flex: 0 0 50%;
+padding: 0;
+margin: 10px;
+order: 1;
 }
 
-/* Select the biography */
-.box3 p {
-    font-size: 14px;
-    line-height: 1.4;
+.box2 {
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 5px;
+    align-items:center;
+    width: 70%;
 }
 
-/* Select section headings */
-h2 {
+.box3 {
+    padding: 3%;
+    max-width: 100%;
+    order: 2;
+    flex-basis: 100%;
+}
+
+.line {
     border-bottom: 2px solid #8B4513;
-    padding-bottom: 5px;
+    padding-block: 5px;
     margin-bottom: 20px;
+
 }
 
-/* Style your employment and education sections */
-/* Style your skills sections */
+.part2{
+    display: flex;
+}
+
+ .section2 { 
+    padding: 3%;
+    width: 40vw;
+    height:fit-content;
+}
+
+.section3 {
+    padding: 3%;
+    margin: 0;
+    width: 40%;
+    height:fit-content
+}
+    
+.statusbar {
+    width: 100%;
+    background-color: #fff;
+    height: 15px;
+}
+.acting{
+    height:  15px;
+    width: 90%;
+    background-color:#ffa600;
+}
+
+.direc{
+    height:  15px;
+    width: 80%;
+    background-color: rgb(18, 177, 4);
+}
+
+.script{
+    height:  15px;
+    width: 60%;
+    background-color:rgb(209, 116, 82);
+}
+
+.stand{
+    height:  15px;
+    width: 100%;
+    background-color:rgb(183, 195, 76);
+}
